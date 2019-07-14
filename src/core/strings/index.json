@@ -1,7 +1,9 @@
 {
   "auth" : {
     "login": "SE CONNECTER",
-    "retry": "Réessayer"
+    "retry": "Réessayer",
+    "username": "Identifiant",
+    "password": "Mot de passe"
   },
   "home" : {
 
