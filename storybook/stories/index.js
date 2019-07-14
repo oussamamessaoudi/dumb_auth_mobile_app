@@ -22,7 +22,7 @@ storiesOf('Button', module)
 storiesOf('IconButton', module)
   .add('Phone Call', () => (
     <IconButton
-      iconNname='phone-call'
+      iconName='phone'
       iconColor='white'
       iconSize={30}
       position='right'
@@ -32,7 +32,7 @@ storiesOf('IconButton', module)
   ))
   .add('retry', () => (
     <IconButton
-      iconNname='log-out'
+      iconName='sign-out'
       iconColor='white'
       iconSize={30}
       position='left'

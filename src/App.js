@@ -1,19 +1,17 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React from 'react';
-import {Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+import Routes from './scenes';
 
+const styles = StyleSheet.create({
+  layoutContainerStyle: {
+    flex: 1,
+  },
+});
 
 const App = () => {
   return (
-      <View>
-        <Text>Hello World!</Text>
+    <View style={styles.layoutContainerStyle}>
+      <Routes/>
       </View>
   );
 };

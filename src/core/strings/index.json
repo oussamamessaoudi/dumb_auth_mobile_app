@@ -1,11 +1,16 @@
 {
   "auth" : {
+    "welcome": "Bienvenue",
     "login": "SE CONNECTER",
     "retry": "Réessayer",
     "username": "Identifiant",
-    "password": "Mot de passe"
+    "password": "Mot de passe",
+    "emptyPassword": "Merci de saisir votre password",
+    "emptyUsername": "Merci de saisir votre identifiant",
+    "emptyUsernamePassword": "Merci de saisir votre identifiant et mot de passe"
   },
   "home" : {
-
+    "hello": "Bonjour ",
+    "problem": "Un problème est survenue merci de réessayer!"
   }
 }
