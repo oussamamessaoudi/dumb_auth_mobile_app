@@ -1,6 +1,7 @@
 {
   "auth" : {
-
+    "login": "SE CONNECTER",
+    "retry": "Réessayer"
   },
   "home" : {
 

@@ -1,13 +1,18 @@
 import React from 'react';
-import {Text} from 'react-native';
-
+import strings from '__strings';
 import {storiesOf} from '@storybook/react-native';
+import Button from '__component/Button';
 
-
-storiesOf('Test', module)
-  .add('Test1', () => (
-    <Text>Test 1</Text>
+storiesOf('Button', module)
+  .add('Login', () => (
+    <Button
+      buttonText={strings.auth.login}
+      onPress={() => alert(strings.auth.login)}
+    />
   ))
-  .add('Test2', () => (
-    <Text>Test 2</Text>
+  .add('retry', () => (
+    <Button
+      buttonText={strings.auth.retry}
+      onPress={() => alert(strings.auth.retry)}
+    />
   ));
